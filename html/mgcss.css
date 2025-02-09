@@ -1,0 +1,16 @@
+body {  font-family: "宋体"; font-size: 10pt; color: #9900FF}
+td {  font-family: "宋体"; font-size: 10pt; color: #0066FF}
+a {  font-family: "宋体"; font-size: 10pt; color: #0066FF}
+a:hover {  font-family: "宋体"; font-size: 10pt; color: #FF0000; font-weight: normal}
+.title {  font-family: "隶书"; font-size: 15pt; color: #FF6600}
+.line {  border-color: #6699CC black black; border-style: dotted; border-top-width: thin; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px}
+.background {  font-family: "宋体"; font-size: 14pt; color: #FFFFFF; background-color: #3366CC; border: #3366CC none}
+
+.bigfont {  font-family: "宋体"; font-size: 10.5pt; line-height: 13pt; font-weight: bolder}
+.doc {  font-family: "宋体"; font-size: 10.5pt; line-height: 16pt}
+.red {  background-color: #FFDFDF; font-size: 10.5pt; line-height: 13pt; font-weight: bold; height: 30px; color: #000000}
+.blue {  font-size: 10.5pt; line-height: 13pt; font-weight: bold; background-color: #CCE6FF; height: 30px; color: #000000}
+.gray {  font-size: 10pt; background-color: #F7F7F7; line-height: 18pt; font-family: "宋体"; color: #000000}
+.unnamed1 {  color: #FF0099}
+
+.dear {  font-family: "宋体"; font-size: 12pt; font-style: normal; font-weight: bold; color: #000000; background-color: #ffcccc}

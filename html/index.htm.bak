@@ -1,0 +1,155 @@
+<html>
+<head>
+<title>manager导航页</title>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<link rel="stylesheet" href="mgcss.css" type="text/css">
+<script language="JavaScript">
+<!--
+
+
+
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+// -->
+//-->
+</script>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" background="backtms.jpg">
+<table width="100%" border="0" height="100%">
+  <tr> 
+    <td width="151" height="93"> <p><img src="earth.jpg" width="129" height="122"></p>
+    </td>
+    <td height="93" valign="top" colspan="4"> 
+      <table width="100%" border="0">
+        <tr> 
+          <td><img src="index.jpg" width="600" height="72" align="right" class="title"></td>
+        </tr>
+      </table>
+      <br>
+      <hr class="line">
+    </td>
+  </tr>
+  <tr> 
+    <td valign="top" width="151" rowspan="2">&nbsp;</td>
+    <td width="179" valign="top" height="188"> 
+      <table border="0" align="center">
+        <tr> 
+          <td height="20"> <div align="right"><img src="word_logo.gif" width="19" height="19"></div></td>
+          <td> <div align="left" class="title"><font color="#006600" size="3"><strong>Info      
+              Browse</strong></font></div></td>
+        </tr>
+        <tr> 
+          <td rowspan="6">&nbsp;</td>
+          <td valign="top"><a href="mg_info">RT Info Manage</a></td>     
+        </tr>
+        <tr> 
+          <td valign="top"><a href="mg_lookup">Bug-&gt;TestCase Manage</a></td> 
+        </tr>
+        <tr> 
+          <td valign="top"><a href="mg_import">Data import</a></td>
+        </tr>
+        <tr> 
+          <td valign="top"><a href="mg_export">Data export</a></td>
+        </tr>
+        <tr> 
+          <td valign="top">&nbsp;</td>
+        </tr>
+        <tr> 
+          <td valign="top">&nbsp;</td>
+        </tr>
+      </table>
+    </td>
+    <td width="195" valign="top" height="188"> 
+      <table border="0" align="center">
+        <tr> 
+          <td width="21" height="25"> <div align="right"><img src="word_logo.gif" width="19" height="19"></div></td>
+          <td width="149"> <div align="left" class="title"><font color="#006600" size="3"><strong>Sort      
+              Set </strong></font></div></td>
+        </tr>
+        <tr> 
+          <td rowspan="5">&nbsp;</td>
+          <td valign="top"><a href="mg_prog">Project Setting</a></td>     
+        </tr>
+        <tr> 
+          <td valign="top"><a href="mg_version">Version Setting</a></td>
+        </tr>
+        <tr> 
+          <td valign="top"><a href="mg_mainfunc">MainFunction Setting</a></td>
+        </tr>
+        <tr> 
+          <td valign="top"><a href="mg_subfunc">Sub Function Setting</a></td>
+        </tr>
+        <tr> 
+          <td valign="top">&nbsp;</td>
+        </tr>
+      </table>
+      <div align="left"></div>
+    </td>
+    <td width="163" valign="top" height="188"> 
+      <table border="0" align="center">
+        <tr> 
+          <td width="21" height="23"> <div align="right"><img src="word_logo.gif" width="19" height="19"></div></td>
+          <td> <div align="left" class="title"><font color="#006600" size="3"><strong>System      
+              Set </strong></font></div></td>
+        </tr>
+        <tr> 
+          <td rowspan="4">&nbsp;</td>
+          <td valign="top"><a href="mg_setsys">System Setting</a></td>     
+        </tr>
+        <tr> 
+          <td valign="top"><a href="mg_setuser">User Setting</a></td>
+        </tr>
+        <tr> 
+          <td valign="top"><a href="mg_aboutus">About TMS</a></td>
+        </tr>
+        <tr> 
+          <td valign="top"><a href="mg_relogin">ReLogin</a></td>
+        </tr>
+      </table>
+    </td>
+    <td width="188" valign="top" height="188"> 
+      <table border="0" align="center">
+        <tr> 
+          <td width="21" height="23"> 
+            <div align="right"><img src="word_logo.gif" width="19" height="19"></div></td>
+          <td width="125"><font color="#006600" size="3"><strong>Db Set</strong></font></td>
+        </tr>
+        <tr> 
+          <td rowspan="4">&nbsp;</td>
+          <td valign="top"><a href="mg_dbbak">Database Backup</a></td>    
+        </tr>
+        <tr> 
+          <td valign="top"><a href="mg_dbrecover">Database Recover</a></td>
+        </tr>
+        <tr> 
+          <td valign="top"><a href="mg_dbpress">Database Press</a></td>
+        </tr>
+        <tr> 
+          <td valign="top">&nbsp;</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> 
+    <td valign="middle" colspan="4" class="line" align="center" height="105"> 
+      <table width="378" border="0" height="61" align="right">
+        <tr>
+          <td align="center">&nbsp;</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">&nbsp;</td>
+          <td align="center"><a href="resc.htm"><img src="2.gif" width="50" height="50" alt="Goto Doc Center" border="0"></a></td>
+          <td align="center"><a href="http://192.168.3.2/cpwiki/Products/CSG/QADocs"><img src="3.gif" width="50" height="50" alt="Goto Link" border="0"></a></td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+</table>
+</body>
+</html>
